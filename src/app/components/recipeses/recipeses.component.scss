@@ -1,0 +1,54 @@
+section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    max-width: 600px;
+  }
+  
+  .example-button-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
+  #s{
+    height: 19vh;
+	width: 20vw;
+background-image: url('/assets/bbbb.jpg');
+ background-size: auto;
+ background-size: cover;
+ opacity: 0.6;
+	border: solid 8px black;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 5px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	transition: width 0.3s, height 0.3s;
+
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  //https://img.freepik.com/free-photo/grungy-white-background-natural-cement-stone-old-texture-as-retro-pattern-wall-conceptual-wall-banner-grunge-material-construction_1258-70913.jpg?t=st=1710348298~exp=1710351898~hmac=243be89891729da047cf2e1fd7b80be3b4a0b40462876e6a32b7149fbd67c191&w=1380
+  
+  a{color: black;font-family: Georgia, 'Times New Roman', Times, serif;font-size: 40px;}

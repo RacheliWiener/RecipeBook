@@ -1,0 +1,40 @@
+
+#recipe
+{
+   height: 60vh;
+   width: 60vw;
+  background-color: aliceblue;
+background-size: auto;
+background-size: cover;
+opacity: 0.6;
+
+   border: solid 8px rgb(17, 17, 17);
+   border-radius: 1em;
+   display: inline-block;
+   margin: 5px;
+   text-align: center;
+  font-family: 'Lobster', cursive;
+   transition: width 0.3s, height 0.3s;
+
+  
+}
+p{
+    font-size: 1.8rem;
+	font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+img {
+    max-width: 30%;
+    height: auto;
+}
+  
+
+
+   
+
+
+
+

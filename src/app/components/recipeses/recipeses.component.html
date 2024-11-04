@@ -1,0 +1,16 @@
+
+
+<div *ngFor="let r of recipes$ | async " style="text-align: center;overflow: hidden;">
+<div id="s" style="overflow: hidden;">
+ <a [routerLink]="['/recipe',r.name]" (click)="statistics()">{{r.name}}</a>
+ <h1 *ngIf="checkDifficulty(r)===1" style="color: rgb(226, 223, 43);">esay</h1>
+ <h1 *ngIf="checkDifficulty(r)===2" style="color: rgb(236, 152, 43);">medium</h1>
+ <h1 *ngIf="checkDifficulty(r)===3" style="color: rgb(236, 18, 18);">hard</h1>
+<button *ngIf="r.love" (click)="changeLove(r)">💖</button>
+<button *ngIf="!r.love" (click)="changeLove(r)">❤</button>
+<div (click)="delete(r)">🚮</div>
+
+</div>
+</div>
+
+

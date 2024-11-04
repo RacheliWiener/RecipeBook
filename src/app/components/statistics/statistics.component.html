@@ -1,0 +1,11 @@
+
+<div class="sticky-element">
+    <p>Your stats:</p>
+    <p>{{ dateTimeData | date: 'medium' }}</p>
+    <p *ngIf="counterGreaterThanZero1==false">Nobody did anything here today...Do you want to be the first?</p>
+    <p *ngIf="counterGreaterThanZero1">The number of times entered into each recipe: {{ViewCounter$ | async}}</p> 
+    <p *ngIf="counterGreaterThanZero2">The number of mark favorites: {{FavoriteCounter$ | async}}</p> 
+    
+  </div>
+
+  

@@ -1,0 +1,30 @@
+ 
+.large-font{
+    font-size:20px;
+  }
+.heart-icon::before {
+    content: "\2665"; /* Unicode for the heart symbol */
+    font-size: 20px; /* Adjust the size as needed */
+    color: red; /* Color of the heart icon */
+}
+
+ion-icon.active{
+    color: red;
+    animation:like 0.5s 1;
+    fill:red;
+    stroke:none;
+}
+ion-icon{
+    color: rgb(247, 238, 238);
+    fill:transparent;
+    stroke:black;
+    stroke-width:30;
+    transition:all 0.5s;
+  }
+  
+
+  @keyframes like {
+    0%   { transform: scale(1); }
+    90%   { transform: scale(1.2); }
+    100% { transform: scale(1.1); }
+  }
